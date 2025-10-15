@@ -27,7 +27,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="right" />
+            android:textSize="30sp"
+            android:text="right:0" />
 
         <TextView
             android:id="@+id/wrongId"
@@ -35,7 +36,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="wrong" />
+            android:textSize="30sp"
+            android:text="wrong:0" />
     </LinearLayout>
 
     <LinearLayout
@@ -79,9 +81,10 @@
                 android:id="@+id/num1Id"
                 android:layout_width="match_parent"
                 android:layout_height="127dp"
-                android:text="Y"
                 android:gravity="center"
-                />
+                android:text="Y"
+                android:textSize="60sp" 
+                android:background="#FFA500"/>
 
             <TextView
                 android:id="@+id/textView4"
@@ -97,6 +100,8 @@
                 android:layout_height="127dp"
                 android:text="X"
                 android:gravity="center"
+                android:textSize="50sp"
+                android:background="#FFA500"
                 />
 
             <EditText
@@ -107,6 +112,7 @@
                 android:inputType="text"
                 android:text="Answer"
                 android:gravity="center"
+                android:textSize="30sp"
                 />
 
             <Button
