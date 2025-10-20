@@ -28,7 +28,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:textSize="30sp"
-            android:text="right:0" />
+            android:text="right" />
 
         <TextView
             android:id="@+id/wrongId"
@@ -37,12 +37,13 @@
             android:layout_weight="1"
             android:gravity="center"
             android:textSize="30sp"
-            android:text="wrong:0" />
+            android:text="wrong" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="61dp"
+        android:backgroundTint="#9E5050"
         android:orientation="horizontal">
 
         <Button
@@ -50,6 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="#efd5f0"
             android:text="Single" />
 
         <Button
@@ -57,14 +59,16 @@
             android:layout_width="wrap_content"
             android:layout_height="61dp"
             android:layout_weight="1"
-            android:text="Till20" />
+            android:text="Till20"
+            android:backgroundTint="#efd5f0"/>
 
         <Button
             android:id="@+id/chalngeId"
             android:layout_width="wrap_content"
             android:layout_height="61dp"
             android:layout_weight="1"
-            android:text="Chalnge" />
+            android:text="Chalnge"
+            android:backgroundTint="#efd5f0"/>
     </LinearLayout>
 
     <LinearLayout
@@ -81,10 +85,11 @@
                 android:id="@+id/num1Id"
                 android:layout_width="match_parent"
                 android:layout_height="127dp"
+                android:background="#c7e0fc"
                 android:gravity="center"
                 android:text="Y"
-                android:textSize="60sp" 
-                android:background="#FFA500"/>
+                android:textColor="#ffffff"
+                android:textSize="60sp" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -92,6 +97,7 @@
                 android:layout_height="85dp"
                 android:text="x"
                 android:textSize="50dp"
+                android:gravity="center"
                 />
 
             <TextView
@@ -99,9 +105,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="127dp"
                 android:text="X"
+                android:textColor="#ffffff"
                 android:gravity="center"
                 android:textSize="50sp"
-                android:background="#FFA500"
+                android:background="#c7e0fc"
                 />
 
             <EditText
@@ -118,10 +125,10 @@
             <Button
                 android:id="@+id/checkId"
                 android:layout_width="match_parent"
-                android:layout_height="139dp"
-                android:text="Check"
+                android:layout_height="60dp"
+                android:backgroundTint="#efd5f0"
                 android:gravity="center"
-                />
+                android:text="Check" />
         </LinearLayout>
     </LinearLayout>
 
