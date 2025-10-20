@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                 r1 = (int) (Math.random() * 11) + 10;
                 r2 = (int) (Math.random() * 9) + 1;
                 num1.setText(r1 + "");
-                num2.setText(r2 + "");
+                num2.setText(r2 +  "");
                 answer.setText("");
             }
         });
